@@ -30,6 +30,7 @@ class MainWindow(QMainWindow):
             "font-style: italic;"
             "text-decoration: underline;"
         )
+        self.label.setAlignment(Qt.AlignCenter)
 
 
 def main():
